@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url("https://panayirgourmet.com/cdn/shop/products/Panayir-Gourmet-Special-Kurabiye-Cesitleri_c22c4946-b031-4ce0-9347-b3156bcdc93b_4000x.jpg?v=1653392345");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: aliceblue;
+  background-color: transparent;
+}
+nav a {
+  text-decoration: none;
+}
+.ekran-sekil {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  transition: 3s;
+  background-color: linen;
+  color: black;
+}
